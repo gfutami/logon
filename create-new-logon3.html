@@ -60,14 +60,14 @@
           
           <h2>Choose your Logon ID</h2>
           
-          <p>Your UCLA Logon ID must be between 3 and 15 characters in length and begin with a letter, following characters can be any combination of letters and numbers. A UCLA Logon ID is not case sensitive. Your UCLA Logon ID will be your main campus identifier and you'll use it to log in to most campus-wide applications. Choose carefully - once created the account can not be changed or deleted.</p>
+          <p>Your UCLA Logon ID must be between 2 and 15 characters in length and begin with a letter; following characters can be any combination of letters and numbers. A UCLA Logon ID is not case sensitive. Your UCLA Logon ID will be your main campus identifier and you'll use it to log in to most campus-wide applications. Choose carefully - once created the account can not be changed or deleted.</p>
       
           <form action="/activate.php" method="post" data-abide novalidate>
       
             <fieldset>
-              <label for="user1">Desired UCLA Logon ID
+              <label for="user1">UCLA Logon ID
               <input name="user1" type="text" maxlength="15" placeholder="joebruin42" id="user1" value="" alt="Your username will be assigned for life and CAN NOT BE CHANGED. Select carefully." pattern="[a-z0-9]{3,15}" autofocus required><span class="form-error">Usernames must be between 3-15 characters long, and must start with a letter.</span></label>
-              <label for="user2">Confirm desired UCLA Logon ID
+              <label for="user2">Confirm UCLA Logon ID
               <input name="user2" type="text" maxlength="15" placeholder="joebruin42" id="user2" value="" alt="Your username will be assigned for life and CAN NOT BE CHANGED. Select carefully." pattern="[a-z0-9]{3,15}" required data-equalto="user1">
               <span class="form-error">Your usernames don't match and/or this doesn't follow the rules above!</span></label>
             </fieldset>
@@ -89,7 +89,7 @@
             
             <h2>Create a Challenge Phrase for Account Recovery</h2>
             
-            <p>Select a challenge and response phrase so that should you forget your password in the future, you may reset it online. The challenge question must be at least 8 characters long and may not exceed 128 characters. The response phrase is case sensitive. It cannot be the same as your Challenge phrase. It must be at least 8 characters long and may not exceed 128 characters.</p>
+            <p>Select a challenge question and response phrase so you can reset your password online if you forget it.  The challenge question and response must each be at least 8 characters long and may not exceed 128 characters. The response phrase is case sensitive. It cannot be the same as your challenge question. </p>
       
             <script type="text/javascript">
               var cbh;
@@ -195,7 +195,7 @@
           <div class="iam-footer-content footer-cta">
             <div class="cta-content">
               <h4>Get Help</h4>
-              <p><a href="https://www.it.ucla.edu/bol/contact-bruin-online" target="_blank">Contact Bruin OnLine</a>, email us at <a href="mailto:consult@ucla.edu">consult@ucla.edu</a>, or give us a call at 310-267-<strong>HELP</strong>.</p>
+              <p>Contact Bruin OnLine, email us at <a href="mailto:consult@ucla.edu">consult@ucla.edu</a>, or give us a call at 310-267-<strong>HELP</strong>.</p>
             </div>
             <p class="cta-button"><a href="https://www.it.ucla.edu/bol/contact-bruin-online" target="_blank">Bruin OnLine Help</a></p>
         	</div>
